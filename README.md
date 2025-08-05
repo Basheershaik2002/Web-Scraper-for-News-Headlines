@@ -1,4 +1,3 @@
-# Web-Scraper-for-News-Headlines
 
 # BBC News Headline Scraper App
 
@@ -21,7 +20,7 @@ This project is a **web scraping tool with a Streamlit frontend** that fetches t
 
 ---
 
-## 🛠How It Works
+## How It Works
 
 1. User opens the app via the Streamlit live link.
 2. Clicks on **"Scrape BBC News Headlines"**.
@@ -30,15 +29,22 @@ This project is a **web scraping tool with a Streamlit frontend** that fetches t
 
 ---
 
-## How to Run Locally
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/yourusername/news_scraper_app.git
-   cd news_scraper_app
-   
-2.pip install -r requirements.txt
+### Technologies Used
+Python
 
-3.streamlit run news_app.py
+Streamlit
+
+BeautifulSoup
+
+Requests
+
+### Output
+
+The app scrapes the latest BBC News headlines when you click "Scrape News".
+
+Headlines are displayed instantly in the web app and saved to headlines.txt.
+
+Around 60–70 current headlines are fetched and stored, one per line.
 
 
