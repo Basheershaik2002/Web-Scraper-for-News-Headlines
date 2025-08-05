@@ -13,11 +13,7 @@ This project is a **web scraping tool with a Streamlit frontend** that fetches t
 - Displays the headlines in a simple and clean web interface
 - Saves the headlines to a local text file (`headlines.txt`)
 - Built with:
-  - `Python`
-  - `BeautifulSoup` (for scraping)
-  - `Requests`
-  - `Streamlit` (for the web interface)
-
+Streamlit which helped me deploy the task.
 ---
 
 ## How It Works
